@@ -1,0 +1,9 @@
+# Ignorar archivos de sistema y entornos virtuales
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+
+# Ignorar SECRETOS DE STREAMLIT (¡Vital!)
+.streamlit/secrets.toml
